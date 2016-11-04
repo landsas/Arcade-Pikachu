@@ -1,0 +1,20 @@
+body{
+	background-color: grey;
+}
+
+#juego {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	line-height: 0;
+}
+
+.pieza {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-position: top left;
+	background-size: cover;
+	display: inline-block;
+	transition: all .2s;
+}
